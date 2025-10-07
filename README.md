@@ -13,7 +13,7 @@
 3. Скопируйте файл **.env.example** в **.env**:
 4. В **.env** добавьте переменную **VITE_API_KEY**
 5. Убедитесь в актуальности кода и запустите проект! 
-```bash
+  ```bash
    git checkout main
    git pull
    npm run dev

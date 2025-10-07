@@ -92,7 +92,7 @@ export const EditUserModal = ({ opened, close }: EditUserModalProps) => {
       )}
       <Modal opened={opened} onClose={close} title="Edit user">
         <form className={styles.wrapper} onSubmit={form.onSubmit(handleSubmit)}>
-          <div>
+          <div className={styles.avatar}>
             <UserAvatar
               avatarUrl={userData?.data?.avatar}
               isLoading={isLoading}
