@@ -1,0 +1,1 @@
+export { UserDetailData } from "./ui/UserDetailData";

@@ -1,0 +1,13 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.formControls {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-self: center;
+}

@@ -1,0 +1,16 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 2rem;
+  object-fit: cover; /* не растягивает, обрезает */
+  object-position: center; /* центрирует */
+  display: block;
+  cursor: pointer;
+}
